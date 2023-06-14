@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main-login">   
+        <div class="left-login">
+            <h1>Fazer login</h1>
+            <p>Venha fazer parte da rede!</p>
+            <img src="./login-img.svg" class="left-login-img" alt="Banner">
+        </div>
+        <div class="right-login">
+            <div class="card-login">
+                <h1>LOGIN</h1>
+                <form method="POST" action="index.php">
+                    <div class="textfield">
+                        <label for="Usuario">Usuário</label>
+                        <input type="email" name="email" placeholder="Usuário">
+                    </div>
+
+                    <div class="textfield">
+                        <label for="senha">Senha</label>
+                        <input type="password" name="user_password" placeholder="Senha">
+                    </div>
+                    <button class="btn-login"Login>Logar</button>
+
+                    <a href="/forum/cadastrar.php"> Ainda não é inscrito ? <strong>Cadastre-se</strong></a><br>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

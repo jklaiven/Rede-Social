@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div class="main-login">   
+        <div class="left-login">
+            <h1>FAÇA JÁ SEU CADASTRO</h1>
+            <p>Aproveite e conecte-se com outros usuários!</p>
+            <img src="./cadastro-img.svg" class="left-login-img" alt="Banner">
+        </div>
+        <div class="right-login">
+            <div class="card-cadastro">
+                <h1>FAZER CADASTRO</h1>
+                <form method="POST" action="index.php">
+                    <div class="textfield-cadastro">
+                        <input type="email" name="email" placeholder="Usuário">
+                        <input type="text" name="apelido" id="apelido" placeholder="Nickname:" required>
+                        <input type="email" name="email" id="email" placeholder="E-mail" required>
+                        <input type="password" name="user_password" id="user_password" placeholder="Senha" required>
+                        <input type="password" name="verify_password" id="verify_password" placeholder="Verificar senha" required>
+                        <input type="password" name="user_password" placeholder="Senha">
+                    </div>
+                    <button class="btn-login"Login>CADASTRAR</button>
+
+                    <a href="/forum/cadastrar.php"> Ainda não é inscrito ? <strong>Cadastre-se</strong></a><br>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-login">
+        <div class="card-login" id="corpo_form_cad">
+            <h1>Cadastrar</h1>
+                <form method="POST" action="cadastrar.php">
+                    <div class="textfield">
+                        <input type="text" name="apelido" id="apelido" placeholder="Nickname:" required>
+                        <input type="email" name="email" id="email" placeholder="E-mail" required>
+                        <input type="password" name="user_password" id="user_password" placeholder="Senha" required>
+                        <input type="password" name="verify_password" id="verify_password" placeholder="Verificar senha" required>
+                        <input type="submit" value="Cadastrar">
+                    </div>
+                </form>
+            </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Adicionar</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-login">   
+        <div class="left-login">
+            <h1>Mande suas mensagens</h1>
+            <img src="./add-img.svg" class="left-login-img" alt="Banner">
+        </div>
+        <div class="right-login">
+            <div class="card-login">
+                <h1>Postagens</h1>
+                <form method="POST" action="adicionar.php">
+                    <div class="textfield">
+                        <textarea id="mensagem" name="mensagem" maxlength="255" rows="4" cols="50"></textarea><br><br>
+                        <label for="mensagem">Digite até 255 caracteres:</label><br>
+                        <input type="submit" value="Enviar" class="btn-login">
+                    </div>
+                
+                    <div class="textfield">
+                        <p>Usuario: Exemplo</p>
+                        <p>Mensagem:</p>
+                        <p>Exemplo mensagem exemplo exemplo exemplo.</p>                        
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
