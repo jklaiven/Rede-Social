@@ -17,3 +17,5 @@ JavaScript: Lógica de interações (like, comentários).
 
 🚀 Como Executar
 Acesse: https://jklaiven.github.io/Rede-Social/
+
+Feito com 💙 por J.Klaiven
